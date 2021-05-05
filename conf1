@@ -1,7 +1,7 @@
    ignore_errors: yes
-     - name: Display the contents of dateOutPut
-         debug:
-	      msg: "{{dateOutPut}}"
+  2   - name: Display the contents of dateOutPut
+  3       debug:
+4	      msg: "{{dateOutPut}}"
 	        - name: Display the std output of dateOutPut 
 		    debug:
 		         msg: "{{dateOutPut.stdout}}"
@@ -11,6 +11,3 @@
 				      name: Display the std error of dateOutPut
 				          debug:
 					        msg: "{{dateOutPut.stderr}}
-this is conflict identity
-
-merging the conflict
