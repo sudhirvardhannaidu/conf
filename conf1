@@ -11,6 +11,3 @@
 				      name: Display the std error of dateOutPut
 				          debug:
 					        msg: "{{dateOutPut.stderr}}
-1
-2
-3
